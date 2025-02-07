@@ -1,0 +1,123 @@
+.singleProductPage{
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.productDetail{
+    width: 700px;
+    height: auto;
+    border: 3px solid var(--light-gray);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.mainImage{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.mainImage img{
+    margin-bottom: 15px;
+}
+
+.productImages{
+    height: 250px;
+    padding: 5px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.imagesSection{
+    display: flex;
+    justify-content: start;
+    overflow-x: hidden;
+    padding: 5px;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.imageItem{
+    position: relative;
+}
+
+.deleteImageBtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.infoBox{
+    width: 320px;
+    height: 50px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--light-gray);
+}
+
+.infoBox label{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid var(--light-gray);
+}
+
+.infoBox input,
+.infoBox select{
+    width: 220px;
+    height: 100%;
+    text-align: center;
+}
+
+.productSizes{
+    width: 320px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productSizes label{
+    font-size: 1rem;
+    margin: 5px;
+    border: 2px solid var(--light-gray);
+    padding: 5px;
+}
+
+.productSizes input{
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.submitBtn{
+    width: 310px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: var(--blue);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: monospace;
+    margin-top: 40px;
+}
+.updated{
+    background-color: orange;
+}

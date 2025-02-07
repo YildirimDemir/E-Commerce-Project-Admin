@@ -1,0 +1,116 @@
+.homePage{
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    padding: 20px;
+}
+
+.statsSection{
+    padding: 10px 30px;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statsSection h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: monospace;
+    margin-bottom: 30px;
+}
+
+.statsContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.statBoxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 600px;
+    justify-content: center;
+}
+
+.statBox{
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.statBox h3{
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 1;
+}
+
+.statBox p{
+    font-size: 1.3rem;
+    font-family: monospace;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.boxIcon{
+    position: absolute;
+    font-size: 9rem;
+    color: var(--green);
+    opacity: .4;
+}
+
+.priceBox{
+    width: 455px;
+    height: 455px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.priceBox h3{
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.priceBox p{
+    font-size: 1.3rem;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.newOrdersArea{
+    width: 100%;
+    height: auto;
+    padding: 20px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.newOrdersArea h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: monospace;
+    margin-bottom: 30px;
+}

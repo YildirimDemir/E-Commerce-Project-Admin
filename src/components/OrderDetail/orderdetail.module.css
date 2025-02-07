@@ -1,0 +1,160 @@
+.orderDetailPage{
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.orderDetailsArea{
+    width: 85vw;
+    height: auto;
+    border: 1px solid var(--light-gray);
+    border-radius: 5px;
+}
+
+.orderDetailHeader{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.orderDetailHeader h1{
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: monospace;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.orderDetailHeader h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.orderItemsArea{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid var(--light-gray);
+    padding: 20px 0px;
+}
+
+.orderItemsArea h3{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+.orderItems{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cartItem{
+    width: 600px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid var(--light-gray);
+    cursor: pointer;
+}
+
+.cartItemInfoSection{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cartItemImage{
+    width: 100px;
+    height: 12ssne0px;
+}
+
+.cartItemImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.cartItemName p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.cartItemDetails{
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+.statusInfo{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.statusInfo p{
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+
+.adressInfo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.adressInfo h2{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+.adressInfo p{
+    width: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dateInfo{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dateInfo p{
+    font-weight: 500;
+}
+
+.pending { color: var(--pending); }
+.processing { color: var(--orange); }
+.shipped { color: var(--blue); }
+.delivered { color: var(--green); }
+.canceled { color: var(--crimson-red); }

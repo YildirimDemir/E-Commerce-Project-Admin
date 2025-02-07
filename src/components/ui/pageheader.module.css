@@ -1,0 +1,12 @@
+.pageHeader{
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+}
+
+.pageHeader h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: monospace;
+}

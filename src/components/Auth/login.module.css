@@ -1,0 +1,97 @@
+.loginPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginFormArea {
+    width: 500px;
+    height: auto;
+    border: 2px solid var(--light-gray);
+    background-color: white;
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formInputGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.formInputGroup label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.formInputGroup input {
+    padding: 10px;
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid var(--light-gray);
+    border-radius: 8px;
+    font-size: 1.3rem;
+    outline: none;
+    color: black;
+}
+
+.inputTypePass{
+    border-radius: 8px 0px 0px 8px !important;
+}
+
+.btn {
+    padding: 8px 12px;
+    height: 60px;
+    font-size: 1.3rem;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--blue);
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.passInput {
+    display: flex;
+}
+
+.toggleButton{
+    text-align: center;
+    border: 2px solid var(--light-gray);
+    border-radius: 0px 8px 8px 0px;
+    font-size: 1.3rem;
+    padding: 3px;
+    width: 80px;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.link{
+    font-family: monospace;
+    font-size: 1rem;
+    color: black;
+}
+
+.link:hover{
+    color: black;
+}

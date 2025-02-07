@@ -1,0 +1,54 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 5px 20px;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.logo{
+    width: auto;
+    height: 45px;
+}
+
+.logo .logoImg{
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+}
+
+.navMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navMenu button{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 4px 8px;
+    margin: 0px 5px;
+}
+
+.userMenu{
+    display: flex;
+    align-items: center;
+}
+
+.navLink{
+    margin: 0px 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navLinkIcon{
+    margin: 0px 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.logoutBtn{
+    font-size: 1.3rem;
+    margin: 0px 10px;
+}

@@ -4,24 +4,12 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  --light-cloud: #f6f6f6;
+  --light-gray: #F2F2F2;
+  --blue: #1726FF;
+  --crimson-red: #DC143C;
+  --green: #86FAA3;
+  --yellow: #FFFF00;
+  --pending: #dec000;
+  --orange: #fc9300;
 }

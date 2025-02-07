@@ -1,0 +1,57 @@
+.settingsPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    flex: 1;
+    position: relative;
+    flex-direction: column;
+    height: calc(100vh - 90px);
+}
+
+.settingsArea{
+    width: 600px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsSidebar{
+    height: 50px;
+    background-color: #000;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chooseBtn{
+    padding: 3px 5px;
+    border-bottom: 2px solid var(--light-gray);
+    width: 80px;
+    color: #fff;
+    font-size: 1rem;
+    margin: 0 20px;
+    font-weight: 600;
+    outline: none;
+}
+
+.selectedSettingArea{
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    overflow-y: scroll;
+    border-radius: 0px 0px 8px 8px;
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+/* .backLink{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: var(--blue);
+    font-family: monospace;
+    font-size: .9rem;
+} */
